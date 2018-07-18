@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="number1">" ప్రశ్న 1"</string>
+    <string name="question1">" 2018 ప్రపంచ కప్ను ఎవరు గెలుచుకున్నారు?"</string>
+    <string name="France_text">" ఫ్రాన్స్"</string>
+    <string name="number2">ప్రశ్న 2</string>
+    <string name="number3">ప్రశ్న 3</string>
+    <string name="number4">ప్రశ్న 4</string>
+    <string name="number5">ప్రశ్న 5</string>
+    <string name="question2">" అర్జెంటీనా ఫుట్బాల్ ఆటగాళ్లను ఎంచుకోండి? మీరు 1 కంటే ఎక్కువ మందిని ఎంచుకోవచ్చు."</string>
+    <string name="question3">" FIFA చేత ఈ క్రింది పదం ఏ ఫుట్బాల్ యొక్క ప్రారంభ రూపంగా గుర్తింపు పొందింది?"</string>
+    <string name="question4">మొదటి FIFA ప్రపంచ కప్ ఎప్పుడు ప్రారంభమైంది?</string>
+    <string name="question5">క్రింది జట్టులో ఏది స్ట్రిప్స్లో ఆడవు?</string>
+    <string name="Paulo_Dybala_Text">" పౌలో డిబాల"</string>
+    <string name="Messi_Text">" లియోనెల్ మెస్సీ"</string>
+    <string name="Submit_ButtonText">సమర్పించు</string>
+    <string name="Answer_Hint">" మీ జవాబును టైప్  మీ జవాబును టైప్ చేయండి"</string>
+    <string name="alert_text1a">" మీరు సమాధానం ఇచ్చారు"</string>
+    <string name="alert_text1b">ప్రశ్నలు.</string>
+    <string name="alert_text2a">" మీరు స్కోర్ చేశారు"</string>
+    <string name="alert_text2b">లో 5.</string>
+    <string name="alert_text3">" మీరు మళ్ళీ పరీక్షను ప్రయత్నించాలనుకుంటున్నారా?"</string>
+    <string name="alert_yes_button">" అవును"</string>
+    <string name="alert_Exit_button">లేదు</string>
+</resources>

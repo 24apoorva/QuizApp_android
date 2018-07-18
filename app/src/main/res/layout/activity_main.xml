@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        tools:context="MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/foot_ball"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            style="@style/Number_Style"
+            android:text="@string/number1" />
+        <TextView
+            style="@style/Questions_Style"
+            android:text="@string/question5" />
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/question1_radio_group">
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:id="@+id/newcastle_radio"
+                android:text="@string/Newcastle_Text" />
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:id="@+id/southampton_radio"
+                android:text="@string/Southampton_Text" />
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:id="@+id/tottenham_hotspur_radio"
+                android:text="@string/Tottenham_Hotspur_Text" />
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:id="@+id/lincoln_city_radio"
+                android:text="@string/Lincoln_City_Text" />
+
+        </RadioGroup>
+        <TextView
+        style="@style/Number_Style"
+        android:text="@string/number2"/>
+
+        <TextView
+            style="@style/Questions_Style"
+            android:text="@string/question2" />
+
+        <CheckBox
+            style="@style/Answer_Button_Style"
+            android:text="@string/Paulo_Dybala_Text"
+            android:id="@+id/paulo_dybala_checkbox"/>
+        <CheckBox
+            style="@style/Answer_Button_Style"
+            android:text="@string/Luis_Suárez_Text"
+            android:id="@+id/Luis_Suárez_checkbox"/>
+        <CheckBox
+            style="@style/Answer_Button_Style"
+            android:text="@string/Messi_Text"
+            android:id="@+id/Messi_checkbox"/>
+        <CheckBox
+            style="@style/Answer_Button_Style"
+            android:text="@string/Neymar_Text"
+            android:id="@+id/Neymar_checkbox"/>
+
+        <TextView
+            style="@style/Number_Style"
+            android:text="@string/number3"/>
+
+        <TextView
+            style="@style/Questions_Style"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/question3_radio_group">
+
+                <RadioButton
+                    style="@style/Answer_Button_Style"
+                    android:text="@string/Cuju_Text" />
+
+                <RadioButton
+                    style="@style/Answer_Button_Style"
+                    android:text="@string/Inuit_Text" />
+
+                <RadioButton
+                    style="@style/Answer_Button_Style"
+                    android:text="@string/kemari_Text" />
+
+                <RadioButton
+                    style="@style/Answer_Button_Style"
+                    android:text="@string/Episkyros_Text"
+                    android:id="@+id/episkyros_radio"/>
+
+        </RadioGroup>
+        <TextView
+            style="@style/Number_Style"
+            android:text="@string/number4"/>
+
+        <TextView
+            style="@style/Questions_Style"
+            android:text="@string/question4" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/question4_radio_group">
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:text="@string/Year1"
+                android:id="@+id/year1_radio"/>
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:text="@string/Year2" />
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:text="@string/Year3" />
+
+            <RadioButton
+                style="@style/Answer_Button_Style"
+                android:text="@string/Year4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/Number_Style"
+            android:text="@string/number5"/>
+        <TextView
+            style="@style/Questions_Style"
+            android:text="@string/question1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/Answer_Hint"
+            android:id="@+id/answer_fifth_question"
+            android:inputType="text"
+            android:maxLength="10"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:text="@string/Submit_ButtonText"
+            android:layout_margin="15dp"
+            android:onClick="onclickSubmit"/>
+
+    </LinearLayout>
+</ScrollView>
